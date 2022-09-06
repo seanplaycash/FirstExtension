@@ -17,17 +17,3 @@ chrome.alarms.onAlarm.addListener(() => {
   });
 });
 
-// //reset
-// chrome.storage.local.get(['seconds'], function(result) { //gets stored value
-//     console.log('Stored Value is ' + result.seconds); //prints stored value
-//     if ('button' === true) {
-//         chrome.storage.local.set({seconds: 0}, function() {
-//         });  
-//     } else {
-//         console.log(result.seconds); //prints stored value
-//             chrome.storage.local.set({seconds: result.seconds + 1}, function() { //adds 1 to stored value
-//             console.log('Value is set to ' + result.seconds); //prints new value
-//             });
-//     }
-    
-// });
